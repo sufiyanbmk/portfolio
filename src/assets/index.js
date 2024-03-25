@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nestjs from "./tech/nestjs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,9 +31,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import resume from "./Resume.pdf";
+import resume from "./Muhammad Sufiyan Resume.pdf";
 
 import riolabzLogo from "./riolabzlogo.png";
+import brototypeLogo from "./brototypelogo.png";
+import universityLogo from "./universitylogo.png";
 
 export {
   logo,
@@ -65,4 +68,7 @@ export {
   tripguide,
   resume,
   riolabzLogo,
+  brototypeLogo,
+  universityLogo,
+  nestjs,
 };

@@ -23,8 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
-  // nestjs,
+  nestjs,
   riolabzLogo,
+  brototypeLogo,
+  universityLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -90,10 +92,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "Nest JS",
-  //   icon: nestjs,
-  // },
+  {
+    name: "Nest JS",
+    icon: nestjs,
+  },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -107,10 +109,6 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -121,7 +119,7 @@ const experiences = [
     title: "Full Stack Developer",
     company_name: "Riolabz",
     icon: riolabzLogo,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "June 2023 - Present",
     points: [
       "Managing Backend Using Nest.Js, Node.Js, MongoDb and Sql.",
@@ -131,42 +129,30 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Intern MERN Stack Developer",
+    company_name: "Brototype",
+    icon: brototypeLogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2022 - Apr 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developed web applications using Mern stack and other related technologies.",
+      "Self taught teaching way of learning new skills improve problem problem solving skill.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Getting in code reviews from senior developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Bsc Computer Science",
+    company_name: "Kannur University",
+    icon: "shopify",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Mar 2019 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed Bsc Computer Science Degree.",
+      "Participated in group projects, gaining practical experience in collaborative development.",
+      "Acquired skills in web design.",
+      "Developed project management abilities.",
+      "Learned basics of computer coding and working mechanisms.",
     ],
   },
 ];
