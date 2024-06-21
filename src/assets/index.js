@@ -31,7 +31,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import resume from "./Muhammad Sufiyan Resume.pdf";
+import resume from "./Muhammad Sufiyan S M Resume2.pdf";
 
 import riolabzLogo from "./riolabzlogo.png";
 import brototypeLogo from "./brototypelogo.png";

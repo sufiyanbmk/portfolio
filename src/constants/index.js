@@ -144,7 +144,7 @@ const experiences = [
   {
     title: "Bsc Computer Science",
     company_name: "Kannur University",
-    icon: "shopify",
+    icon: universityLogo,
     iconBg: "#383E56",
     date: "Mar 2019 - Feb 2022",
     points: [
