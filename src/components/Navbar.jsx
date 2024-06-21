@@ -53,9 +53,13 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Muhammad Sufiyan S M &nbsp;
-          </p>
+          <div className="p-2 md:p-4 lg:p-6 w-full">
+            <p className="text-white text-base sm:text-lg md:text-xl lg:text-2xl font-bold cursor-pointer flex flex-wrap">
+              <span className="whitespace-nowrap">Muhammad&nbsp;</span>
+              <span className="whitespace-nowrap">Sufiyan&nbsp;</span>
+              <span className="whitespace-nowrap">S&nbsp;M&nbsp;</span>
+            </p>
+          </div>
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
